@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('jenskin github') {
+            steps {
+                echo 'halo aku sukses'
+            }
+        }
+    }
+}
